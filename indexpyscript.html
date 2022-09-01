@@ -11,6 +11,8 @@
     <h1>hello</h1>
 <py-script>
     import time
+    import tushare as ts
+    print(ts.get_hist_data('600848'))
     a=['1','2']
     for i in a:
         print(i)
